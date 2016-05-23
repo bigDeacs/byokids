@@ -13,13 +13,6 @@ body {
   /*background: url("/img/fullwidthimg1.jpg") no-repeat center top scroll;*/
   padding: 15px 0; }
 
-.image-bg-fixed-height {
-  /*background: url("/img/fullwidthimg1.jpg") no-repeat center top scroll;*/
-  height: 250px; }
-
-.image-bg-home-height {
-  /*background: url("/img/fullwidthimg1.jpg") no-repeat center top scroll;*/
-  height: 500px; }
 
 .phone {
   font-size: 30px;
@@ -28,6 +21,14 @@ body {
   color: #004FA3; }
 
 @media only screen and (min-width: 768px) {
+.image-bg-fixed-height {
+  /*background: url("/img/fullwidthimg1.jpg") no-repeat center top scroll;*/
+  height: 250px; }
+
+.image-bg-home-height {
+  /*background: url("/img/fullwidthimg1.jpg") no-repeat center top scroll;*/
+  height: 500px !important; }
+
   .phone {
     text-align: right !important; } }
 
@@ -318,6 +319,15 @@ hr {
     text-align: center; }
   .jcarousel li {
     width: 270px; } }
+
+  .image-bg-fixed-height {
+  /*background: url("/img/fullwidthimg1.jpg") no-repeat center top scroll;*/
+  height: 175px; }
+
+  .image-bg-home-height {
+  /*background: url("/img/fullwidthimg1.jpg") no-repeat center top scroll;*/
+  height: 175px; }
+
 
 .jcarousel img {
   display: block;
