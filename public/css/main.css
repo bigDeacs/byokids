@@ -23,11 +23,14 @@ body {
 @media only screen and (min-width: 768px) {
 .image-bg-fixed-height {
   /*background: url("/img/fullwidthimg1.jpg") no-repeat center top scroll;*/
-  height: 250px; }
+  height: 250px; 
+  z-index: 1 !important;
+}  
 
 .image-bg-home-height {
   /*background: url("/img/fullwidthimg1.jpg") no-repeat center top scroll;*/
-  height: 500px !important; }
+  height: 500px !important;
+  z-index: 1 !important; }
 
   .phone {
     text-align: right !important; } }
@@ -174,7 +177,7 @@ hr {
   border-color: rgba(231, 231, 231, 0) !important; }
 
 .navbar-default .navbar-nav > li > a {
-  color: #555 !important;
+  color: #555 !important;  
   font-weight: bold;
   text-transform: uppercase; }
 
@@ -187,7 +190,8 @@ hr {
 
 .navbar-nav > li > a {
   padding: 7px !important;
-  margin-top: 5px !important; }
+  margin-top: 5px !important;
+  font-size: 16px !important; }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: #004FA3 !important; }

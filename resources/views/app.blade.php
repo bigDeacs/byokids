@@ -43,13 +43,13 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 		<div class="container">
 	    	<div class="row no-gutter">
 				<!-- Logo -->
-	            <div class="col-md-3 col-sm-4 col-xs-12">
+	            <div class="col-md-2 col-sm-3 col-xs-12">
 	                <a href="/">
 	                	<img class="img-responsive center-block" src="/img/logo.png" alt="">
 	                </a>
 	            </div>
 	            <!-- Nav & Phone -->
-	            <div class="col-md-9 col-sm-8 col-xs-12">
+	            <div class="col-md-10 col-sm-9 col-xs-12">
 					<div class="row">
 	            		<div class="col-xs-12 hidden-xs">
 	            			<div class="row">
